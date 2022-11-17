@@ -1,0 +1,14 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "OurCFB",
+    "description": "",
+    "home_page_url": "https://redditcfb.github.io/redditcfb",
+    "feed_url": "https://redditcfb.github.io/redditcfb/feed.json",
+    "user_comment": "",
+    "icon": "https://redditcfb.github.io/redditcfb/media/website/rcfb1200.png",
+    "author": {
+        "name": "bakonydraco"
+    },
+    "items": [
+    ]
+}
