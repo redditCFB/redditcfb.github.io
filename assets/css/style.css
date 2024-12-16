@@ -2594,6 +2594,13 @@ textarea {
     padding-top: calc(var(--magic-number)/ 3)
 }
 
+.footer__left {
+    display: flex;
+    justify-content: space-between; /* Push items to opposite ends */
+    align-items: center;
+    width: 100%; /* Ensure full width for proper alignment */
+}
+
 @media all and (max-width:56.1875em) {
     .footer {
         padding-top: calc(var(--magic-number)/ 2);
