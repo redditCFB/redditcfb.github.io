@@ -1,0 +1,65 @@
+<!DOCTYPE html><html lang="en-us"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Thank You! - OurCFB</title><meta name="description" content="Thank you for your donation! Please fill out the form to receive recognition in the official post on /r/CFB! Please&hellip;"><meta name="generator" content="Publii Open-Source CMS for Static Site"><link rel="canonical" href="https://redditcfb.github.io/thanks.html"><link rel="alternate" type="application/atom+xml" href="https://redditcfb.github.io/feed.xml" title="OurCFB - RSS"><link rel="alternate" type="application/json" href="https://redditcfb.github.io/feed.json" title="OurCFB - JSON"><meta property="og:title" content="Thank You!"><meta property="og:image" content="https://redditcfb.github.io/media/website/rcfb1200.png"><meta property="og:image:width" content="600"><meta property="og:image:height" content="580"><meta property="og:site_name" content="OurCFB"><meta property="og:description" content="Thank you for your donation! Please fill out the form to receive recognition in the official post on /r/CFB! Please&hellip;"><meta property="og:url" content="https://redditcfb.github.io/thanks.html"><meta property="og:type" content="article"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@redditcfb"><meta name="twitter:title" content="Thank You!"><meta name="twitter:description" content="Thank you for your donation! Please fill out the form to receive recognition in the official post on /r/CFB! Please&hellip;"><meta name="twitter:image" content="https://redditcfb.github.io/media/website/rcfb1200.png"><link rel="stylesheet" href="https://redditcfb.github.io/assets/css/style.css?v=a8ac2b3ac38a34677237d8288be4acf6"><script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://redditcfb.github.io/thanks.html"},"headline":"Thank You!","datePublished":"2025-11-05T15:59-08:00","dateModified":"2025-11-06T10:12-08:00","image":{"@type":"ImageObject","url":"https://redditcfb.github.io/media/website/rcfb1200.png","height":580,"width":600},"description":"Thank you for your donation! Please fill out the form to receive recognition in the official post on /r/CFB! Please&hellip;","author":{"@type":"Person","name":"bakonydraco","url":"https://redditcfb.github.io/authors/bakonydraco/"},"publisher":{"@type":"Organization","name":"bakonydraco","logo":{"@type":"ImageObject","url":"https://redditcfb.github.io/media/website/rcfb1200.png","height":580,"width":600}}}</script></head><body><div class="container"><header class="header"><a href="https://redditcfb.github.io/" class="logo"><img src="https://redditcfb.github.io/media/website/rcfb1200.png" alt="OurCFB" width="600" height="580"></a><nav class="navbar js-navbar"><button class="navbar__toggle js-toggle" aria-label="Menu">Menu</button><ul class="navbar__menu"><li><a href="https://twitter.com/redditcfb" target="_blank">@RedditCFB</a></li><li><a href="https://www.reddit.com/r/CFB" target="_self">/r/CFB</a></li><li><a href="https://old.reddit.com/r/CFB/wiki/media" target="_self">Media Info</a></li><li><a href="https://old.reddit.com/r/CFB/wiki/donations" target="_self">Donation Drives</a></li><li class="venmo"><a href="https://redditcfb.github.io/donate.html" target="_self">Donate</a></li></ul></nav></header><main class="main"><article class="post"><header class="post__inner post__header"><h1 class="post__title">Thank You!</h1></header><div class="post__inner"><div class="post__entry"><p>Thank you for your donation! Please fill out the form to receive recognition in the official post on /r/CFB!</p><div><div style="font-family:system-ui, sans-serif;max-width:980px;margin:18px auto;padding:0 12px;"><h1 style="margin:8px 0 10px;">Thank you for your donation!</h1><div style="border:1px solid #e5e7eb;border-radius:12px;padding:14px;margin:12px 0;background:#fafafa;"><div style="display:flex;flex-wrap:wrap;gap:16px;font-size:15px;"><div><strong>Platform:</strong> <span id="m-platform">—</span></div><div><strong>Order / Transaction ID:</strong> <span id="m-order">—</span></div><div><strong>Amount (USD):</strong> <span id="m-amount">—</span></div></div><p style="margin:10px 0 0;color:#374151;">Please complete this quick form to receive credit. If the embedded form is hard to use on your device, <a id="open-new" href="#" target="_blank" rel="noopener">open it in a new tab</a>.</p></div><div id="form-wrap" style="max-width:900px;margin:8px 0;"></div><div id="sticky-tip" style="position:sticky;bottom:10px;background:#0C7F0B;color:#fff;
+                              padding:10px 14px;border-radius:10px;max-width:fit-content;
+                              font-size:14px;display:none;">Tip: Scroll down inside the form to find the Submit button.</div></div><script>const FORM_BASE = "https://docs.google.com/forms/d/e/1FAIpQLSduOVZ5UT_pUytiXmJQOMYOvXy2SCPBiQPjlsrGDo-5r3qxug/viewform";
+  const FIELD = {
+    username:       "entry.1935734895",
+    platform:       "entry.2124589203",
+    transaction_id: "entry.1617343325",
+    amount:         "entry.1448945692",
+    comments:       "entry.906077773"
+    // school: "entry.XXXXXXXXX"
+  };
+
+  const qs = new URLSearchParams(location.search);
+  const platform = qs.get("platform") || "";
+  const orderID  = qs.get("orderID") || "";
+  const amount   = qs.get("amount") || "";
+  const username = qs.get("username") || "";
+  const comments = qs.get("comments") || "";
+
+  document.getElementById("m-platform").textContent = platform || "—";
+  document.getElementById("m-order").textContent    = orderID || "—";
+  document.getElementById("m-amount").textContent   = amount || "—";
+
+  // Build prefill URL
+  const pre = new URLSearchParams();
+  if (FIELD.platform && platform)      pre.set(FIELD.platform, platform);
+  if (FIELD.transaction_id && orderID) pre.set(FIELD.transaction_id, orderID);
+  if (FIELD.amount && amount)          pre.set(FIELD.amount, amount);
+  if (FIELD.username && username)      pre.set(FIELD.username, username);
+  if (FIELD.comments && comments)      pre.set(FIELD.comments, comments);
+
+  const url = new URL(FORM_BASE);
+  url.searchParams.set("embedded", "true");
+  for (const [k,v] of pre) url.searchParams.set(k, v);
+
+  // Open in new tab link
+  document.getElementById("open-new").href = url.toString();
+
+  // Inject iframe (taller, responsive)
+  const iframe = document.createElement("iframe");
+  iframe.src = url.toString();
+  iframe.style.width = "100%";
+  iframe.style.minHeight = "1400px";   // taller for mobile
+  iframe.style.border = "0";
+  iframe.setAttribute("loading", "lazy");
+  document.getElementById("form-wrap").appendChild(iframe);
+
+  // Show sticky tip on small screens
+  if (window.matchMedia("(max-width: 640px)").matches) {
+    document.getElementById("sticky-tip").style.display = "inline-block";
+  }</script></div></div></div></article></main><footer class="footer"><div class="footer__left"><div class="footer__copy">@ 2025 OurCFB</div></div><button onclick="backToTopFunction()" id="backToTop" class="footer__bttop" aria-label="Back to top" title="Back to top"><svg><use xlink:href="https://redditcfb.github.io/assets/svg/svg-map.svg#toparrow"/></svg></button></footer></div><script>window.publiiThemeMenuConfig = { mobileMenuMode: 'sidebar', animationSpeed: 300, submenuWidth: 'auto', doubleClickTime: 500, mobileMenuExpandableSubmenus: true, relatedContainerForOverlayMenuSelector: '.navbar', };</script><script defer="defer" src="https://redditcfb.github.io/assets/js/scripts.min.js?v=8190bbfcf662a6d5bf1ad35d88ad1ec9"></script><script>function publiiDetectLoadedImages () {
+         var images = document.querySelectorAll('img[loading]:not(.is-loaded)');
+         for (var i = 0; i < images.length; i++) {
+            if (images[i].complete) {
+               images[i].classList.add('is-loaded');
+               images[i].parentNode.classList.remove('is-img-loading');
+            } else {
+               images[i].addEventListener('load', function () {
+                  this.classList.add('is-loaded');
+                  this.parentNode.classList.remove('is-img-loading');
+               }, false);
+            }
+         }
+      }
+      publiiDetectLoadedImages();</script></body></html>
