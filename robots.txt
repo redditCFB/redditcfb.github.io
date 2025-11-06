@@ -1,3 +1,2 @@
 User-agent: *
 Disallow:
-Sitemap: https://redditcfb.github.io/sitemap.xml
