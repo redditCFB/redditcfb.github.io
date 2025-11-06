@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://ourcfb.com/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url>
+<loc>https://ourcfb.com/</loc>
+</url>
+<url>
+<loc>https://ourcfb.com/donate.html</loc>
+<lastmod>2025-11-06T14:38:07-08:00</lastmod>
+</url>
+<url>
+<loc>https://ourcfb.com/rcfb-reporting-photos-from-the-clemson-furman-game.html</loc>
+<lastmod>2022-09-15T00:06:45-07:00</lastmod>
+<image:image>
+<image:loc>https://ourcfb.com/media/posts/3/DSC00670.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://ourcfb.com/rcfb-reports-fiu-claws-back-from-deficit-wins-38-37-in-ot-over-bryant.html</loc>
+<lastmod>2022-09-14T23:45:58-07:00</lastmod>
+<image:image>
+<image:loc>https://ourcfb.com/media/posts/2/Q_jDba9y.jpeg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://ourcfb.com/rcfb-talks-sun-belt-commissioner-keith-gill-wed-10am-et-plus-your-calls-on-tues-night-on-twitter-spaces.html</loc>
+<lastmod>2022-09-15T00:09:43-07:00</lastmod>
+<image:image>
+<image:loc>https://ourcfb.com/media/posts/1/aaa.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://ourcfb.com/thanks.html</loc>
+<lastmod>2025-11-06T14:25:52-08:00</lastmod>
+</url>
+</urlset>
